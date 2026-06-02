@@ -20,7 +20,7 @@ provider "azurerm" {
 #   blob_name            = "myblob.json"
 # }
 
-module "resource_group_storage" {
+module "resource_group_storage" { # THIS WORKFLOW WILL FAIL DUE TO PROBLENS ON TERRAFORM SIDE, CANT PUSH MODULE TO TERRAFORM REGISTRY
   source                   = "Killingrace/resource_group_storage/azurerm"
   version                  = "1.0.0"
   location                 = "Poland Central"
