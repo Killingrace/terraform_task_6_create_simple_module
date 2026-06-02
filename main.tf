@@ -21,8 +21,8 @@ provider "azurerm" {
 # }
 
 module "resource_group_storage" {
-  source = "Killingrace/resource_group_storage/azurerm"
-  version = "1.0.0"
+  source                   = "Killingrace/resource_group_storage/azurerm"
+  version                  = "1.0.0"
   location                 = "Poland Central"
   resource_group_name      = "test_resource_group"
   storage_account_name     = "teststor4321"
